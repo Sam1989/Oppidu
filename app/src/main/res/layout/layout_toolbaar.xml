@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        tools:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/toolbar_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingLeft="@dimen/_3sdp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/toolBarTitleTv"
+            style="@style/ToolBarTitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:ellipsize="end"
+
+            android:gravity="center"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/toolBarsubtitle"
+            style="@style/ToolBarTitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+
+            android:gravity="center"
+            android:textSize="@dimen/_13sdp" />
+
+        <ImageView
+            android:id="@+id/main_toolbar_logo"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/_6sdp"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+</layout>

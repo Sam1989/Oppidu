@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "543487999055",
+    "project_id": "oppidu-4abac",
+    "storage_bucket": "oppidu-4abac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543487999055:android:0ebd00c1a5b2327feabe3a",
+        "android_client_info": {
+          "package_name": "com.oppidu.oppidu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543487999055-5jpbjn3sqe14i49pts3tsfd4fg2rln0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oppidu.oppidu",
+            "certificate_hash": "3ccc6dc3b52234af3db8b8e7538c806702bb2bf3"
+          }
+        },
+        {
+          "client_id": "543487999055-587tvfoit9m1vik4nlkq9ljpbu59sjpr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk2cZAYdyUzcKsjv-sNMXbAuD1fqWYJEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543487999055-587tvfoit9m1vik4nlkq9ljpbu59sjpr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

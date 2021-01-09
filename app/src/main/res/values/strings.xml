@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Oppidu</string>
+
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="bad_response">Bad Response</string>
+
+    <string name="api_failure">API response failure</string>
+
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="logout">Logout</string>
+    <string name="cancel">Cancel</string>
+    <string name="sure_to_logout">Are you sure you want to logout?</string>
+    <string name="sure_to_exit">Press again to close Oppidu.</string>
+    <string name="no_network_connected">No Network Connected</string>
+
+    <string name="read_more">read more</string>
+    <string name="read_less">..read less</string>
+
+    <!-- Home screen -->
+    <string name="home">Home</string>
+    <string name="add_task">Add Task</string>
+    <string name="profile">Profile</string>
+
+
+</resources>
